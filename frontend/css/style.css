@@ -8,9 +8,7 @@ html {
 }
 
 body {
-    background: url("../img/image20.png") center -340px no-repeat fixed;
-
-
+    background: rgb(243, 234, 234);
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -104,3 +102,18 @@ nav {
 h1 {
     font-family: 'Source Sans Pro', sans-serif;;
 }
+
+/*MAIN CONTENT*/
+
+.boxed {
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+    padding: 2em 0.5em;
+}
+
+.main-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
