@@ -47,3 +47,60 @@ a {
         margin: 0 auto;
 
 }
+
+/*HEADER*/
+
+.logo {
+    float: left;
+    margin: 0;
+    padding-top: 0.25em;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    padding: 0 1em;
+    background: #adb3b8;
+    border: 1px solid #95969e;
+}
+
+nav {
+    display: block;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation a {
+    color: #6d4a4a;
+    /*display: block;*/
+    text-align: center;
+    padding: 0em 0.8em;
+    width: 9em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    color: rgb(212, 218, 250);
+    transform: scale(1.05);
+    transition: all .5s ease;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li:last-child {
+    border-left: 1px solid #7e4a4a;
+}
+
+.logo a {
+    color: rgb(82, 49, 49);
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;;
+}
