@@ -112,7 +112,7 @@ h1 {
 }
 
 .boxed {
-    background: rgb(161, 85, 49);
+    background: rgba(131, 130, 112, 0.664);
     border: 2px solid rgb(84, 96, 161);
     border-radius: 1.5em;
     float: left;
