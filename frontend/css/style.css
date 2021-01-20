@@ -105,15 +105,27 @@ h1 {
 
 /*MAIN CONTENT*/
 
-.boxed {
-    border: 1px solid black;
-    float: left;
-    width: 30%;
-    padding: 2em 0.5em;
-}
-
 .main-content {
-    width: 100%;
     margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
 }
 
+.boxed {
+    background: rgb(161, 85, 49);
+    border: 2px solid rgb(84, 96, 161);
+    border-radius: 1.5em;
+    float: left;
+    width: 28%;
+    margin-top: 5em;
+    margin-right: 3.1em;
+    height: 20em;
+}
+
+.boxed:hover,
+.boxed:focus {
+    color: rgb(212, 218, 250);
+    background: rgb(173, 169, 169);
+    transform: scale(1.05);
+    transition: all .5s ease;
+}
