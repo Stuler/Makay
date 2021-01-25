@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: rgb(243, 234, 234);
+    background: #F5F2F2;
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -57,8 +57,8 @@ a {
 .nav-bar {
     margin: 0 auto;
     padding: 0 1em;
-    background: #adb3b8;
-    border: 1px solid #95969e;
+    background:#E6F4F2;
+    border: 1px solid #A89D8D;
 }
 
 nav {
@@ -70,7 +70,7 @@ nav {
 }
 
 .navigation a {
-    color: #6d4a4a;
+    color: #8d90a8;
     /*display: block;*/
     text-align: center;
     padding: 0em 0.8em;
@@ -82,7 +82,7 @@ nav {
 
 .navigation a:hover,
 .navigation a:focus {
-    color: rgb(212, 218, 250);
+    color: #2411d1;
     transform: scale(1.05);
     transition: all .5s ease;
 }
@@ -112,8 +112,8 @@ h1 {
 }
 
 .boxed {
-    background: rgba(131, 130, 112, 0.664);
-    border: 2px solid rgb(84, 96, 161);
+    background: #F2DDDC;
+    border: 0.5em solid #76A688;
     border-radius: 1.5em;
     float: left;
     width: 28%;
@@ -124,7 +124,7 @@ h1 {
 
 .boxed:hover,
 .boxed:focus {
-    color: rgb(212, 218, 250);
+    color: #DCF2E5;
     background: rgb(173, 169, 169);
     transform: scale(1.05);
     transition: all .5s ease;
