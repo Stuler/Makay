@@ -93,7 +93,7 @@ nav {
 .navigation a {
     color: #8d90a8;
     text-align: center;
-    padding: 0em 0.75em;
+    padding: 1em 0.75em;
     width: 9em;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
@@ -103,8 +103,8 @@ nav {
 
 .navigation a:hover,
 .navigation a:focus {
-    color: #FCF7FC;
-    background: red;
+    color: #183149;
+    background: #EBF2D9;
     transition: all .5s ease;
 }
 
