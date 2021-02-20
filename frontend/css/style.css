@@ -62,7 +62,7 @@ a {
     float: right;
 }
 
-.mainmenu {
+.mainmenu, .footmenu{
     float: left;
 }
 
@@ -91,12 +91,12 @@ nav {
 }
 
 .navigation a {
-    color: #8d90a8;
+    color: #cdcfe2;
     text-align: center;
-    padding: 1em 0.75em;
+    padding: 0.9em 0.75em;
     width: 9em;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     line-height: 3em;
 }
@@ -117,3 +117,29 @@ h1 {
 }
 
 /*MAIN CONTENT*/
+
+
+/* FOOTER */
+.footer-text {
+    color: #EBF2D9;
+    text-align: center;
+    padding: 1.5em 2.05em;
+    margin: 0;
+    float: left;
+}
+
+.footer-bar {
+    height:3em;
+}
+
+.footermenu {
+    padding-top: 0em;
+}
+
+.footercontainer {
+    max-height: 100%;
+}
+
+.footnav a{
+    padding: 0.85em 0.75em 0.65em;
+}
