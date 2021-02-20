@@ -8,7 +8,12 @@ html {
 }
 
 body {
-    background: #F7FAFC;
+    background-image: url("../img/ktl_intro_image_crpd.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -400px;
+    background-color: #000;
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -45,6 +50,7 @@ a {
         margin: 0 auto;
 
 }
+
 
 /*HEADER*/
 
@@ -116,20 +122,29 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
+.intro-header {
+
+}
+
 /*MAIN CONTENT*/
+main {
+    height: 830px;
+    background-color: rgba(168, 143, 143, 0.445);
+
+}
 
 
 /* FOOTER */
 .footer-text {
     color: #EBF2D9;
     text-align: center;
-    padding: 1.5em 2.05em;
+    padding: 1em 15.05em;
     margin: 0;
     float: left;
 }
 
 .footer-bar {
-    height:3em;
+    display: flex;
 }
 
 .footermenu {
@@ -140,6 +155,3 @@ h1 {
     max-height: 100%;
 }
 
-.footnav a{
-    padding: 0.85em 0.75em 0.65em;
-}
