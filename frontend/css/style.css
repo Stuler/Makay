@@ -8,7 +8,11 @@ html {
 }
 
 body {
-    background: #F7FAFC;
+    background-image: url("../img/ktl_intro_image_crpd.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -400px;
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -43,8 +47,10 @@ a {
 .container {
         max-width: 1170px;
         margin: 0 auto;
-
 }
+
+
+
 
 /*HEADER*/
 
@@ -62,7 +68,7 @@ a {
     float: right;
 }
 
-.mainmenu {
+.mainmenu, .footmenu{
     float: left;
 }
 
@@ -91,12 +97,12 @@ nav {
 }
 
 .navigation a {
-    color: #8d90a8;
+    color: #cdcfe2;
     text-align: center;
-    padding: 1em 0.75em;
+    padding: 0.9em 0.75em;
     width: 9em;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     line-height: 3em;
 }
@@ -116,4 +122,66 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
+.highlighted {
+    background-color: rgba(235, 43, 18, 0.925);
+}
+
+.highlighted a {
+    color: #fff;
+}
+
 /*MAIN CONTENT*/
+
+/* FOOTER */
+.footer-text {
+    color: #EBF2D9;
+    text-align: center;
+    padding: 1em 15.05em;
+    margin: 0;
+    float: left;
+}
+
+.footer-bar {
+    display: flex;
+    padding: 0;
+}
+
+.footermenu {
+    padding-top: 0em;
+}
+
+.footercontainer {
+    max-height: 100%;
+}
+
+.footer-bar {
+    border-bottom: none;
+}
+
+/* FORMS */
+
+fieldset {
+    max-width: 20%;
+    margin: 0 auto;
+    background: rgba(58, 54, 54, 0.5);
+}
+
+.signupform {
+    margin: 17em;
+    text-align: center;
+    padding: 1em 5em;
+    background: rgba(255, 255, 255, 0.699);
+    border-radius: 2em;
+}
+
+.signupform article {
+    text-align: left;
+    color: #EBF2D9;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.formline {
+    margin-bottom: 2em;
+
+}
