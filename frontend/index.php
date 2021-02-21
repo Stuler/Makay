@@ -1,13 +1,13 @@
 <?php include 'partials/header.php'; ?>
-
-    <main class="container">
-        <hgroup class="hdrs">
+    <hgroup class="hdrs container">
             <h1 class="intro-header">Way to the fitness of your dreams starts here!</h1>
             <h3>Log your workouts and track your progess.</h3>
             <h2 class="subheader">Start by logging in. Still not here? Subscribe!</h2>
         </hgroup>
 
-        <section class="maincontent" id="features">
+    <main class="container">
+
+    <section class="maincontent" id="features">
             <h2 class="subhdr">Features</h2>
             <article class="maintxt">
                 <p>Praesent ultrices justo ac eros dictum, tempus facilisis dui rutrum. 
@@ -21,7 +21,7 @@
             </article>
         </section>
 
-        <section class="maincontent" id="How it works">
+        <section class="maincontent" id="how-it-works">
             <h2 class="subhdr">How it works</h2>
             <article class="maintxt">
                 <p>Donec convallis feugiat libero, a maximus enim interdum sed.
@@ -37,6 +37,21 @@
                 id purus venenatis, et cursus nulla blandit. Suspendisse hendrerit 
                 tempor arcu, non lobortis urna convallis vel. Quisque in volutpat orci.</p>
             </article>
+
+            <section class="maincontent" id="about-author">
+            <h2 class="subhdr">About Author</h2>
+            <article class="maintxt">
+                <p>Nulla dapibus dapibus diam sit amet ullamcorper. In sem nulla,
+                    pharetra semper sodales vel, efficitur ac tortor. Morbi tellus est, 
+                    ultricies nec leo eu, rhoncus consectetur libero. Proin non diam 
+                    tristique, sodales sapien sit amet, ullamcorper sem. Nulla facilisi. 
+                    Donec fringilla pulvinar enim et pretium. Praesent vehicula vehicula 
+                    auctor. Suspendisse nisi neque, cursus non leo eget, semper porta lorem. 
+                    Ut consequat ultricies neque vel finibus. Fusce ac ex cursus, 
+                    suscipit justo interdum, malesuada diam. Pellentesque cursus eleifend 
+                    pulvinar.</p>
+            </article>
+        </section>
         </section>
     </main>
     

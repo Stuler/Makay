@@ -13,7 +13,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -400px;
-    background-color: #000;
     font-size: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -48,7 +47,11 @@ a {
 .container {
         max-width: 1170px;
         margin: 0 auto;
+}
 
+fieldset {
+    max-width: 20%;
+    margin: 0 auto;
 }
 
 
@@ -123,12 +126,6 @@ h1 {
 }
 
 /*MAIN CONTENT*/
-main {
-
-    background-color: rgba(168, 143, 143, 0.445);
-
-}
-
 
 /* FOOTER */
 .footer-text {
@@ -141,6 +138,7 @@ main {
 
 .footer-bar {
     display: flex;
+    padding: 0;
 }
 
 .footermenu {
@@ -151,3 +149,21 @@ main {
     max-height: 100%;
 }
 
+
+/* FORM */
+.signupform {
+    margin: 17em auto;
+    text-align: center;
+    padding: 0;
+}
+
+.signupform article {
+    text-align: left;
+    color: #EBF2D9;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.formline {
+    margin-bottom: 2em;
+}
