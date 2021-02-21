@@ -8,8 +8,8 @@
             </article>
             <nav class="navigation footnav group">
                 <ul class="menu footermenu">
-                    <li><a href=#terms_of_use>Terms of use</a></li>
-                    <li><a href=#privacy_policy>Privacy policy</a></li>
+                    <li><a href="terms_of_use.php">Terms of use</a></li>
+                    <li><a href="privacy_policy.php">Privacy policy</a></li>
                 </ul>
             </nav>
         </div>

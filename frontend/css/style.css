@@ -49,10 +49,7 @@ a {
         margin: 0 auto;
 }
 
-fieldset {
-    max-width: 20%;
-    margin: 0 auto;
-}
+
 
 
 /*HEADER*/
@@ -125,6 +122,14 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
+.highlighted {
+    background-color: rgba(235, 43, 18, 0.925);
+}
+
+.highlighted a {
+    color: #fff;
+}
+
 /*MAIN CONTENT*/
 
 /* FOOTER */
@@ -149,12 +154,24 @@ h1 {
     max-height: 100%;
 }
 
+.footer-bar {
+    border-bottom: none;
+}
 
-/* FORM */
+/* FORMS */
+
+fieldset {
+    max-width: 20%;
+    margin: 0 auto;
+    background: rgba(58, 54, 54, 0.5);
+}
+
 .signupform {
-    margin: 17em auto;
+    margin: 17em;
     text-align: center;
-    padding: 0;
+    padding: 1em 5em;
+    background: rgba(255, 255, 255, 0.699);
+    border-radius: 2em;
 }
 
 .signupform article {
@@ -166,4 +183,5 @@ h1 {
 
 .formline {
     margin-bottom: 2em;
+
 }

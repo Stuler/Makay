@@ -7,6 +7,8 @@
 <main class="container">
 
     <div class="signupform" id="signupform">
+        <p>Start by creating your account. Already have one? Sign up 
+            <a href="login.php">here</a>.</p>
         <fieldset>
             <form action="signup.php" method="post">
                 <p class="formline">
@@ -27,6 +29,8 @@
                 <p><input type="submit" class="submit-btn" name="submit" value="Create Account"/></p>
             </form>
         </fieldset>
+        <p>By submitting this form you accept our 
+            <a href="terms_of_use.php">Terms of Use</a>.</p>
     </div>
 
 </main>

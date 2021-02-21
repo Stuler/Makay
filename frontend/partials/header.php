@@ -23,7 +23,7 @@
                 </ul>
                 <ul class="menu subscribe">
                     <li><a href="login.php">Log In</a></li>
-                    <li><a href="signup.php">Sign Up</a></li>
+                    <li class="highlighted"><a href="signup.php">Sign Up</a></li>
                 </ul>
             </nav>
         </div>
