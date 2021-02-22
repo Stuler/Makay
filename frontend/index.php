@@ -3,7 +3,10 @@
     <hgroup class="hdrs container">
             <h1 class="intro-header">Way to the fitness of your dreams starts here!</h1>
             <h3>Log your workouts and track your progess.</h3>
-            <h2 class="subheader">Start by logging in. Still not here? Subscribe!</h2>
+            <h2 class="subheader">Start by 
+               <a href="login.php">logging in</a> . 
+               Still not here? 
+               <a href="signup.php">Sign Up!</a> </h2>
         </hgroup>
 
     <main class="container">

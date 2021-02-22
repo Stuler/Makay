@@ -107,8 +107,7 @@ nav {
     font-weight: 600;
     line-height: 3em;
 }
-.navigation a:hover,
-.navigation a:focus {
+.navigation a:hover{
     color: #183149;
     background: #EBF2D9;
     transition: all .5s ease;
@@ -174,7 +173,7 @@ fieldset {
 
 .signupform,
 .loginform{
-    margin: 25% auto;
+    margin: 25% 30%;
     text-align: center;
     padding: 1em 5em;
     background: rgba(255, 255, 255, 0.699);

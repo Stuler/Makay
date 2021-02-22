@@ -22,7 +22,7 @@
                     <input type="password" name="password" size=<?php echo $inputsize ?> maxlength="30"/>
                 </p>
 
-                <p><input type="submit" class="submit-btn" name="submit" value="SIGN IN"/></p>
+                <p><input type="submit" class="submit-btn" name="submit" value="Sign In"/></p>
             </form>
         </fieldset>
         <p>Not registered yet?  
