@@ -7,7 +7,7 @@
                 Copyright © 2021, Peter Jurek,  All rights reserved.
             </article>
             <nav class="navigation footnav group">
-                <ul class="menu footermenu">
+                <ul class="menu footermenu subscribe">
                     <li><a href="terms_of_use.php">Terms of use</a></li>
                     <li><a href="privacy_policy.php">Privacy policy</a></li>
                 </ul>

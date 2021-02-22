@@ -38,8 +38,8 @@
                 tempor arcu, non lobortis urna convallis vel. Quisque in volutpat orci.</p>
             </article>
 
-            <section class="maincontent" id="about-author">
-            <h2 class="subhdr">About Author</h2>
+            <section class="maincontent" id="contact">
+            <h2 class="subhdr">Contact</h2>
             <article class="maintxt">
                 <p>Nulla dapibus dapibus diam sit amet ullamcorper. In sem nulla,
                     pharetra semper sodales vel, efficitur ac tortor. Morbi tellus est, 
