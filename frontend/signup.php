@@ -1,5 +1,4 @@
 <?php 
-
     include 'partials/header.php'; 
     $inputsize = 30;
 ?>
@@ -7,7 +6,7 @@
 <main class="container">
 
     <div class="signupform" id="signupform">
-        <p>Start by creating your account. Already have one? Sign up 
+        <p>Start by creating your account. Already have one? Sign in 
             <a href="login.php">here</a>.</p>
         <fieldset>
             <form action="signup.php" method="post">
