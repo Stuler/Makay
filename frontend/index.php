@@ -1,4 +1,5 @@
 <?php include 'partials/header.php'; ?>
+
     <hgroup class="hdrs container">
             <h1 class="intro-header">Way to the fitness of your dreams starts here!</h1>
             <h3>Log your workouts and track your progess.</h3>
