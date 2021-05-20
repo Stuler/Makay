@@ -1,3 +1,4 @@
 <?php
 
-include_once (__DIR__ . '/../_inc/config.php');
+//include_once (__DIR__ . '/../templates/layout.html.php');
+include_once (__DIR__ . '/users.php');

@@ -1,0 +1,185 @@
+/* GENERAL */
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("../img/ktl_intro_image_crpd.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -400px;
+    font-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after  {
+    content: " ";
+    display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after {
+    clear: both;
+}
+
+.container,
+.group,
+.menu {
+    *zoom: 1;
+}
+
+.container {
+        max-width: 1170px;
+        margin: 0 auto;
+}
+
+
+
+
+/*HEADER*/
+
+.logo {
+    float: left;
+    margin: 0;
+    padding-top: 0.25em;
+}
+
+.logo a {
+    color: #EBF2D9;
+}
+
+.navigation {
+    float: right;
+}
+
+.mainmenu, .footmenu{
+    float: left;
+}
+
+.subscribe {
+    float: right;
+}
+
+.mainmenu {
+    border-right: 0.17em solid #9a9caf;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    background:#220B21;
+    border-bottom: 1px solid #A89D8D;
+    width: 100%;
+}
+
+nav {
+    display: block;
+}
+
+.menu{
+    padding:0;
+    margin: 0;
+}
+
+.navigation a {
+    color: #cdcfe2;
+    text-align: center;
+    padding: 0.9em 0.6em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 3em;
+}
+.navigation a:hover{
+    color: #183149;
+    background: #EBF2D9;
+    transition: all .5s ease;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.highlighted {
+    background-color: rgba(235, 43, 18, 0.925);
+}
+
+.highlighted a {
+    color: #fff;
+}
+
+/*MAIN CONTENT*/
+
+/* FOOTER */
+.footer-text {
+    color: #EBF2D9;
+    text-align: center;
+    padding: 1em 10em;
+    margin: 0 auto;
+    float: left;
+}
+
+.footer-bar {
+    display: flex;
+    padding: 0;
+}
+
+.footermenu {
+    padding-top: 0em;
+}
+
+.footer-bar {
+    border-bottom: none;
+    border-top: 1px solid #A89D8D;
+}
+
+/* FORMS */
+
+fieldset {
+    max-width: 20%;
+    margin: 0 auto;
+    background: rgba(58, 54, 54, 0.5);
+}
+
+.signupform,
+.loginform{
+    margin: 25% 30%;
+    text-align: center;
+    padding: 1em 5em;
+    background: rgba(255, 255, 255, 0.699);
+    border-radius: 2em;
+}
+
+.signupform article,
+.loginform article {
+    text-align: left;
+    color: #EBF2D9;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.formline {
+    margin-bottom: 2em;
+
+}

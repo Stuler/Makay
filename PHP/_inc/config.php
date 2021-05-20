@@ -16,7 +16,13 @@ try {
     $sql = 'SELECT name FROM user';
     $result = $pdo->query($sql);
 
-    $msg = 'Database connection established';
+    //metoda fetch() vracia nasledujuci riadok vysledkov ako pole; ak uz neexistuje dalsi riadok, vrati false
+    //priradenie do $row priradi hodnotu premennej $row, ale zaroven cely blok dostane tu istu hodnotu
+    foreach ($result as $row) {
+        $users[] = $row['name'];
+    }
+
+//    $msg = 'Database connection established';
     }
     catch (PDOException $e){
     $msg = 'Unable to connect to the database server:' .
@@ -24,7 +30,8 @@ try {
         $e->getFile() . ' line ' . $e->getLine();
 }
 
-include __DIR__ . '/../templates/output.php';
+//include __DIR__ . '/../templates/users.php';
+//include __DIR__ . '/../templates/layout.html.php';
 
 //    Vytvorenie tabulky user
 /*    $sql = 'CREATE TABLE user (
