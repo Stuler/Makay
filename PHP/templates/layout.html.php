@@ -13,7 +13,7 @@
         <header class="nav-bar">
             <div class="container">
                 <h1 class="logo">
-                    <a href="index.php">MAKAY</a>
+                    <a href="../www/index.php">MAKAY</a>
                 </h1>
                 <nav class="navigation group">
                     <ul class="menu  mainmenu">
@@ -31,7 +31,7 @@
         </header>
 
         <main>
-            <a href="addExcercise.php">Add new excercise</a>
+            <a href="../_inc/addExcercise.php">Add new excercise</a>
 
             <?=$output?>
 
