@@ -7,12 +7,18 @@ try {
 	$pdo->setAttribute(PDO::ATTR_ERRMODE,
 		PDO::ERRMODE_EXCEPTION);
 
-	$sql = 'SELECT name FROM excercise';
-	$result = $pdo->query($sql);
+	$sql = 'SELECT `id`, `name` FROM excercise';
+	$excercises = $pdo->query($sql);
 
-	while ($row = $result->fetch()) {
-		$excercises[] = $row['name'];
-	}
+
+//	Tento kod je NEEFEKTIVNY!!:
+//	$result = $pdo->query($sql);
+//
+//	while ($row = $result->fetch()) {
+//		$excercises[] = [
+//			'id' => $row['id'],
+//			'name' => $row['name']];
+//	}
 
 	$title = 'Excercises list';
 

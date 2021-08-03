@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="../www/css/normalize.css">
         <link rel="stylesheet" href="../www/css/style.css">
-        <link rel="stylesheet" href="../www/css/bootstrap.css">
+<!--        <link rel="stylesheet" href="../www/css/bootstrap.css">-->
         <title><?=$title?></title>
     </head>
 
@@ -31,8 +31,8 @@
         </header>
 
         <main>
-            <a href="../_inc/addExcercise.php">Add new excercise</a>
-
+            <a href="../model/addExcercise.php">Add new excercise</a>
+	        <a href="../model/excercises.php">Show excercises</a>
             <?=$output?>
 
         </main>

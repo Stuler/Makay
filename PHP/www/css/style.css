@@ -121,6 +121,24 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
+span {
+	display: table;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	padding: 0.5em;
+}
+
+span p {
+	display: table-cell;
+	width: 90%;
+	vertical-align: top;
+}
+
+span form {
+	display: table-cell;
+	width: 10%;
+}
+
 .highlighted {
     background-color: rgba(235, 43, 18, 0.925);
 }
@@ -183,3 +201,4 @@ fieldset {
     margin-bottom: 2em;
 
 }
+

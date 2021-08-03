@@ -20,7 +20,7 @@ if (isset($_POST['name'])) {
 		$stmt->bindValue(':name', $_POST['name']);
 		$stmt->execute();
 
-		header('location: ../templates/excercises.php');
+		header('location: ../model/excercises.php');
 
 	} catch (PDOException $e) {
 		$title = 'An error has occured:';
