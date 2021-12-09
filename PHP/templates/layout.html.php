@@ -31,8 +31,8 @@
         </header>
 
         <main>
-            <a href="../model/addExcercise.php">Add new excercise</a>
-	        <a href="../model/excercises.php">Show excercises</a>
+            <span><a href="../model/addExcercise.php">Add new excercise</a></span><br/>
+            <span><a href="../model/excercises.php">Show excercises</a></span><br/>
             <?=$output?>
 
         </main>
